@@ -23,7 +23,7 @@ public class IT24102308Lab4Q2 {
         // Lab marks
         System.out.print("Please enter the lab marks (out of 100): ");
         labmarks = input.nextDouble();
-        if (labmarks < 0 || labmarks > 100)
+        if (labmarks<0||labmarks>100)
         {
             System.out.println("Invalid input for the lab marks. Terminating program.");
             return; 
